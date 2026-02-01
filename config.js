@@ -5,53 +5,53 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Anne-Sophie",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Accepte tu d'être ma valentine? 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['❤️', '💜', '💘', '💕', '🩷'],  // Heart emojis
+        bears: ['🐈', '🐈‍⬛', '😻','🧶']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "Est-ce que tu m'aimes ?",                                    // First interaction
+            yesBtn: "Oui",                                             // Text for "Yes" button
+            noBtn: "Non",                                               // Text for "No" button
+            secretAnswer: "Tu es mon choupet croquette d'amour ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
+            text: "comment gros tu m'aimes?",                          // For the love meter
+            startText: "Gros comme ça!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            text: "Est-ce que tu acceptes d'être ma valentine ? 🌹", // The big question!
+            yesBtn: "Oui, je le veux!",                                             // Text for "Yes" button
+            noBtn: "Non"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW Tu m'aimes vraiment gros comme ça ?? 👉👈🥺",  // Shows when they go past 5000%
+        high: "Vers l'infini et plus loin encore! 🚀🩷",              // Shows when they go past 1000%
+        normal: "et plus loin encore! 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Yay! Je suis ton valentin le plus chanceux au monde! 🍾🐈‍⬛💘",
+        message: "Tu peux venir prendre ton câlin chaleureux 🫶",
+        emojis: "😘💕"  // These will bounce around
     },
 
     // Color scheme for the website
